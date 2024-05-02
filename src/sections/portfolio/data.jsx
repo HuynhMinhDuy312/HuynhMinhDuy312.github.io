@@ -1,6 +1,8 @@
 import Image1 from "../../assets/project1.jpg";
-import Image2 from "../../assets/project2.jpg";
+import Image2 from "../../assets/project2.png";
 import Image3 from "../../assets/project3.png";
+import Image4 from "../../assets/project4.jpg";
+import Image5 from "../../assets/project5.png";
 
 const data = [
     {
@@ -16,16 +18,35 @@ const data = [
         id: 2,
         category: "frontend",
         image: Image2,
+        title: "Luxstay (Frontend)",
+        desc: "Luxstay clone website",
+        demo: "https://luxstay-clone.vercel.app/",
+        github: "https://github.com/HuynhMinhDuy312/luxstay",
+    },
+    {
+        id: 3,
+        category: "frontend",
+        image: Image3,
+        title: "Web music player",
+        desc: "A website that you can listen to One piece music",
+        demo: "https://web-music-player-onepiece.vercel.app",
+        github: "https://github.com/HuynhMinhDuy312/WebMusicPlayer-Onepiece",
+    },
+
+    {
+        id: 4,
+        category: "frontend",
+        image: Image4,
         title: "Ecoder (Frontend)",
         desc: "A website that you can self-learn any type of coding languages that you want! It has many functions that you don't often see in a coding website!",
         demo: "No demo",
         github: "https://github.com/HuynhMinhDuy312/ecoder",
     },
     {
-        id: 3,
+        id: 5,
         category: "frontend",
-        image: Image3,
-        title: "The Wise Oasis (Frontend)",
+        image: Image5,
+        title: "The Wise Oasis",
         desc: "A website that made for hotel's staffs to manage bookings status (check in guests as they arrive) with available API! For test account => email: humindu@gmail.com, password: 123123123",
         demo: "https://the-wild-oasis-ruby-delta.vercel.app",
         github: "https://github.com/HuynhMinhDuy312/the-wild-oasis",
